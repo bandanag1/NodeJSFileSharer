@@ -12,9 +12,9 @@ Its very simple application but quite useful in terms of peer-to-peer networking
 
 Steps for using this application:
 
-1. Download the zip file and extract all the files
-2. Run file_server.js file on your nodejs server
-3. Run the index.html file or add it in apache wookie as a widget
-4. Now you can share files between peers
+1. Download the zip file and extract all the files.
+2. Run file_server.js file on your nodejs server.
+3. Run the index.html file or add it in apache wookie as a widget.
+4. Now you can share files between peers.
 5. Enjoy!!
 6. Feel free to comment or add anything useful.
