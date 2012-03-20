@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Omelette File Sharer</title>
+<script>
+	function populateDiv()
+	{
+		document.getElementById('fileListDiv').innerHTML = "<iframe src='http://yourserver:8422/uploads'></iframe>";
+	}
+</script>
+</head>
+<body>
+	<div width=95% height=95%>
+		<h3 align="center">P2P File Share Widget</h3>
+		<div>
+			<iframe src="http://yourserver:8422"></iframe>
+		</div>		
+		<div>
+			<div align="center" id="buttonDiv">				
+				<button id="listFilesBtn" onclick="populateDiv();">Refresh File List</button>
+			</div>
+			<div id="fileListDiv">
+				<iframe src="http://yourserver:8422"></iframe>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
